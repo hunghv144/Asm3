@@ -1,0 +1,108 @@
+@media screen and (max-width: 767.98px) {
+  .bg-about {
+    background-image: none;
+  }
+  .container {
+    width: 98%;
+    margin: 0 auto;
+  }
+  h2 {
+    font-size: 18px;
+  }
+
+  /* CSS phần Nav-bar */
+  .banner-name {
+    font-size: 18px;
+    top: 20%;
+  }
+  .logo {
+    display: none;
+  }
+  .nav-bar {
+    flex-direction: column;
+    border-left: 0;
+    align-items: start;
+    margin-left: 20px;
+  }
+  .nav:hover {
+    width: 100%;
+  }
+  .nav {
+    border: none;
+  }
+  .nav > a {
+    display: flex;
+    gap: 10px;
+  }
+  .swap {
+    order: 2;
+  }
+
+  /* CSS phần About */
+  .container,
+  .about {
+    font-size: 16px;
+  }
+  .about {
+    flex-wrap: wrap;
+  }
+  .target {
+    width: 100%;
+  }
+  .about {
+    flex-wrap: wrap;
+  }
+  .target {
+    padding: 50px 40px;
+    border-bottom: solid 1px rgb(218, 212, 212);
+  }
+
+  /* CSS phần Job-info */
+  .job-info {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .info {
+    width: 100%;
+  }
+
+  /* CSS phần Certificate */
+  .certificate {
+    width: 95%;
+    grid-template-columns: 1fr;
+    gap: 25px;
+    margin: 0 auto;
+    padding: 10px 0;
+  }
+  #certificate h2 {
+    margin-left: 15px;
+  }
+  .lineright {
+    padding-bottom: 20px;
+    border-right: none;
+    border-bottom: solid 2px #d6c08d;
+  }
+
+  /* CSS phần Project */
+  .project {
+    width: 95%;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .project h3 {
+    font-size: 16px;
+  }
+  #project h2 {
+    margin-left: 15px;
+  }
+  .bar-if {
+    flex-direction: column;
+    align-items: start;
+  }
+  /* CSS footer */
+  .footer > a {
+    display: none;
+  }
+}
