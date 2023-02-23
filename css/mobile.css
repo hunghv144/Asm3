@@ -67,6 +67,8 @@
   .info {
     width: 100%;
   }
+  .info-4-icon{ display:flex;
+   flex-wrap:wrap;}
 
   /* CSS phần Certificate */
   .certificate {
