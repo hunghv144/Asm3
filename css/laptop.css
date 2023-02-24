@@ -130,6 +130,8 @@ h2 {
   padding: 50px 0;
   padding-right: 40px;
 }
+.target p{
+  text-align:justify;}
 .icon-info {
   color: rgb(78, 166, 207);
 }
