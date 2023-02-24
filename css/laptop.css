@@ -236,10 +236,12 @@ h2 {
   color: rgb(78, 166, 207);
   border-radius: 100%;
   border: solid 2px rgb(78, 166, 207);
-  width: auto;
+  width: 100%;
+  height: auto;
   text-align: center;
-  font-size: 160%;
-  padding: 14%;
+  font-size: 150%;
+  padding: 18%;
+  padding-top: 12px;
   margin-bottom: 10px;
   object-fit: cover;
 }
