@@ -368,12 +368,15 @@ h2 {
   padding: 5px 10px;
 }
 
-.description-table,
-tr {
+.description-table tr {
   border: solid 1px gainsboro;
   border-collapse: collapse;
   flex: 1;
 }
+.description-table{
+  flex-grow:1;
+}
+
 td {
   padding: 10px 5px;
   padding-left: 15px;
